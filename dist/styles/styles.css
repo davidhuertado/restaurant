@@ -59,11 +59,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 150px;
+  flex-wrap: wrap-reverse;
 }
 
 .index-pizza {
-  width: 600px;
+  max-width: 600px;
+  width: 80%;
+}
+.pizza-div {
+  text-align: center;
 }
 
 .nosotros-h2 {
@@ -92,7 +97,7 @@ body {
 .menu-section {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 /* .img-container {
@@ -133,7 +138,7 @@ body {
 .contactanos-section {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .contactanos-container {
@@ -171,16 +176,36 @@ body {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .ul-box {
-    margin-right: auto;
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 2rem;
   }
+  .nav-li {
+    font-size: 1.2rem;
+  }
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotros-section {
+    justify-content: center;
+  }
+}
 
+@media only screen and (max-width: 1200px) {
   .nav-li {
     margin: 20px 20px;
   }
 
   .nav-ul {
     text-align: right;
+  }
+
+  .nosotros-section {
+    justify-content: center;
+  }
+  .nosotros-text {
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 }
