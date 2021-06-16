@@ -85,3 +85,102 @@ body {
   border: solid 4px #53354a;
   border-radius: 5px;
 }
+
+/* MENU */
+/* //////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+.menu-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+/* .img-container {
+  width: 100px;
+} */
+
+.menu-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu-img {
+  width: 250px;
+  text-align: center;
+}
+
+.pizzas-menu {
+  text-align: center;
+  margin: 30px 30px;
+  background-color: #903749;
+  border: solid 2px #53354a;
+  border-radius: 5px;
+}
+.pizza-description {
+  padding: 20px 20px;
+}
+
+.pizza-name {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* CONTACTANOS */
+/* //////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+
+.contactanos-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.contactanos-container {
+  background-color: #903749;
+  padding: 30px;
+  border: solid 2px #000;
+  border-radius: 5px;
+}
+
+.contactanos-h3 {
+  font-size: 2rem;
+}
+.contactanos-text {
+  font-size: 1.2rem;
+}
+.telefonos-container {
+  padding-bottom: 40px;
+}
+
+.telefonos-li {
+  margin: 20px auto;
+  list-style: none;
+}
+.phones-img {
+  width: 20px;
+}
+
+.flaticon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.direccion {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ul-box {
+    margin-right: auto;
+  }
+
+  .nav-li {
+    margin: 20px 20px;
+  }
+
+  .nav-ul {
+    text-align: right;
+  }
+}

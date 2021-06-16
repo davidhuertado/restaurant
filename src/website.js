@@ -67,17 +67,17 @@ function createNav() {
   ulBox.appendChild(navUl);
 
   const nosotrosBtn = document.createElement('li');
-  nosotrosBtn.classList.add('nav-li');
+  nosotrosBtn.classList.add('nav-li', 'nosotros-nav');
   nosotrosBtn.textContent = 'Nosotros';
   navUl.appendChild(nosotrosBtn);
 
   const menuBtn = document.createElement('li');
-  menuBtn.classList.add('nav-li');
+  menuBtn.classList.add('nav-li', 'menu-nav');
   menuBtn.textContent = 'Menu';
   navUl.appendChild(menuBtn);
 
   const contactanosBtn = document.createElement('li');
-  contactanosBtn.classList.add('nav-li');
+  contactanosBtn.classList.add('nav-li', 'contactanos-nav');
   contactanosBtn.textContent = 'Contactanos';
   navUl.appendChild(contactanosBtn);
 
@@ -87,10 +87,7 @@ function initializeWebsite() {
   const contentDiv = document.querySelector('#content');
   contentDiv.appendChild(createHeader());
   contentDiv.appendChild(createNosotros());
-}
-function sayHi() {
-  alert('hi');
+  return contentDiv;
 }
 
 export default initializeWebsite;
-// export default sayHi;
